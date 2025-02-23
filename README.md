@@ -30,19 +30,33 @@ A powerful tool designed to streamline academic research by efficiently scraping
 
 ### Step 2: Download the Project
 
-1. Click the green "Code" button above
-2. Select "Download ZIP"
-3. Extract the ZIP file to your desired location
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/al-kafi-sohag/integrated-research-platform.git
+   cd integrated-research-platform
+   ```
 
-### Step 3: Install Dependencies
+### Step 3: Set Up Virtual Environment
 
-1. Open Command Prompt (Windows)
-2. Navigate to the project folder:
+1. Create a virtual environment:
+   ```bash
+   python -m venv venv
    ```
-   cd path/to/integrated-research-platform
-   ```
-3. Install required packages:
-   ```
+
+2. Activate the virtual environment:
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+### Step 4: Install Dependencies
+
+1. With the virtual environment activated, install required packages:
+   ```bash
    pip install -r requirements.txt
    ```
 
