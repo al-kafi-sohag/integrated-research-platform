@@ -17,7 +17,7 @@ class ScholarScraperApp:
         ctk.set_default_color_theme("blue")
         
         self.window = ctk.CTk()
-        self.window.title("Google Scholar Scraper")
+        self.window.title("Integrated Research Platform")
         self.window.geometry("800x800")
         self.window.resizable(False, False)
 
